@@ -6,7 +6,7 @@
   "tags": ["steam"],
   "repository": {
     "type": "git",
-    "url": "http://github.com/JulioC/Steam.js"
+    "url": "http://github.com/JulioC/steam.js"
   },
   "dependencies": {
     "request": "2.9.x"
