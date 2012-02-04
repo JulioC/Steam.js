@@ -1,5 +1,5 @@
 {
-  "name": "steam",
+  "name": "steam.js",
   "version": "0.1",
   "description" : "Wrapper for the Steam Web API.",
   "author": "Julio C <julio@julioc.me>",
