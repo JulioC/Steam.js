@@ -5,6 +5,12 @@ A Node.js library for the Steam Web API, with wrappers to deal with its methods,
 ## Install
 
 <pre>
+  npm install steam.js
+</pre>
+
+Or get the latest sources...
+
+<pre>
   git clone git://github.com/JulioC/steam.js.git 
   cd steam.js
   npm link
