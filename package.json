@@ -1,6 +1,6 @@
 {
   "name": "steam.js",
-  "version": "0.1",
+  "version": "0.1.0",
   "description" : "Wrapper for the Steam Web API.",
   "author": "Julio C <julio@julioc.me>",
   "tags": ["steam"],
