@@ -1,0 +1,16 @@
+{
+  "name": "steam",
+  "version": "0.1",
+  "description" : "Wrapper for the Steam Web API.",
+  "author": "Julio C <julio@julioc.me>",
+  "tags": ["steam"],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/JulioC/Steam.js"
+  },
+  "dependencies": {
+    "request": "2.9.x"
+  },
+  "engine": "node >= 0.4.1",
+  "main" : "./main"
+}
