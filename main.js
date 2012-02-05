@@ -100,10 +100,6 @@ module.exports.util = {
     var params = {};
     if (opt.key) {
       params.key = opt.key;
-    } else {
-      // [API Glitch?]
-      // This will return some methods, without needing a key
-      params.client_id = 'none';
     }
 
     steam.request({
