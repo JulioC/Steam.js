@@ -1,5 +1,4 @@
 var util = require('util'),
-  events = require('events'),
   url = require('url'),
   qs = require('querystring'),
   request = require('request');
@@ -7,7 +6,6 @@ var util = require('util'),
 function Steam() {
   this.host = 'api.steampowered.com';
 }
-util.inherits(Steam, events.EventEmitter);
 
 var steam = new Steam();
 module.exports = steam;
@@ -89,11 +87,7 @@ Steam.prototype.request = function (opt, callback) {
     if (callback) {
       callback(error, data);
     }
-
-    self.emit('response', error, data);
   });
-
-  self.emit('request', options);
 };
 
 module.exports.util = {
