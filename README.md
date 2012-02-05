@@ -132,20 +132,24 @@ Send a message for another user. Available options are:
 (to be documented)
 
 **Error**
+
 * `error`
 * `auth_error`
 
 **Authentication**
+
 * `authenticate`
 * `connect`
 * `logon`
 
 **Polling**
+
 * `poll` 
 * `poll_status`
 * `poll_secure`
 
 **Message**
+
 * `message`
 * `message_typing `
 * `message_saytext`
