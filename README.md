@@ -18,6 +18,8 @@ Or get the latest sources...
 
 ## Example Usage
 
+Making a request for the Steam Web API
+
 ```
 var steam = require('steam');
 
@@ -38,6 +40,25 @@ steam.request({
 }, function (e, d) {
   d.appnews.newsitems.forEach(function(news) {
     console.log(news);
+  });
+});
+```
+
+Creating a _Steam echo bot_
+
+```
+var Session = require('steam/Session');
+
+var session = new Session();
+session.connect({
+  username: 'gaben',
+  password: 'c4ke'
+});
+
+session.on('message_saytext', function (m) {
+  session.message({
+    steamid: m.steamid_from,
+    text: m.text
   });
 });
 ```
