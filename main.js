@@ -1,5 +1,4 @@
-var util = require('util'),
-  url = require('url'),
+var url = require('url'),
   qs = require('querystring'),
   request = require('request');
 
