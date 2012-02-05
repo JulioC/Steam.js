@@ -21,7 +21,7 @@ Or get the latest sources...
 Making a request for the Steam Web API
 
 ```
-var steam = require('steam');
+var steam = require('steam.js');
 
 steam.util.getServerInfo(function (e, d) {
   console.log('Server time: ' + d.servertimestring);
@@ -47,7 +47,7 @@ steam.request({
 Creating a _Steam echo bot_
 
 ```
-var Session = require('steam/Session');
+var Session = require('steam.js/Session');
 
 var session = new Session();
 session.connect({
@@ -80,7 +80,7 @@ Note: since the library is still WIP, the functions are most likely to change, s
 The module used for direct requests for the Steam Web API
 
 ```
-var steam = require('steam');
+var steam = require('steam.js');
 ```
 
 #### request(options, callback)
@@ -112,7 +112,7 @@ Shorthand for `request(SteamWebAPIUtil/GetServerInfo, callback)`. Accepts an opt
 Reproduces the behavior expected from the Mobile App, handles authorization, server notifications and client messaging.
 
 ```
-var Session = require('steam/Session');
+var Session = require('steam.js/Session');
 ```
 
 #### session = new Session(options)
