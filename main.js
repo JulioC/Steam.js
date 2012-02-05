@@ -45,8 +45,7 @@ Steam.prototype.request = function (opt, callback) {
     req.method = 'POST';
     req.body = '?' + qs.stringify(options.post).toString('ascii');
     req.headers = {
-      'Content-Type': 'application/x-www-form-urlencoded',
-      'Host': options.url
+      'Content-Type': 'application/x-www-form-urlencoded'
     };
   }
 
